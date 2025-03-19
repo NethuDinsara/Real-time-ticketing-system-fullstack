@@ -13,7 +13,7 @@ Admin Dashboard: Manage events, users, and tickets through an easy-to-use admin 
 Responsive UI: Built with Angular, ensuring a seamless experience across devices.
 📂 Setup & Installation
 
-git clone https://github.com/yourusername/repository-name.git
+git clone https://github.com/NethuDinsara/Real-time-ticketing-system-fullstack.git
 
 Navigate to the backend and run the Spring Boot application.
 Navigate to the frontend and start the Angular application.
