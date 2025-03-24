@@ -1,0 +1,11 @@
+<div class="control-panel">
+  <button (click)="startTicketProcessing()" class="start-button">Start</button>
+  <button (click)="stopTicketProcessing()" class="stop-button" [disabled]="!isProcessing">Stop</button>
+</div>
+
+<div class="logs-container" *ngIf="logs.length > 0">
+  <h3>Transaction Logs:</h3>
+  <ul>
+    <li *ngFor="let log of logs">{{ log }}</li>
+  </ul>
+</div>

@@ -1,0 +1,10 @@
+<div class="ticket-status">
+    <h2>Ticket Processing Status</h2>
+    
+    <div *ngIf="loading">Loading...</div>
+    
+    <div *ngIf="!loading">
+      <p>{{ status }}</p>
+    </div>
+  </div>
+  

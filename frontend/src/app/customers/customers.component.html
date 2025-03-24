@@ -1,0 +1,25 @@
+<h2>Add Customer</h2>
+<form (ngSubmit)="addCustomer()">
+  <div class="form-group">
+    <label>First Name:</label>
+    <input [(ngModel)]="customer.firstName" name="firstName" required />
+  </div>
+
+  <div class="form-group">
+    <label>Last Name:</label>
+    <input [(ngModel)]="customer.lastName" name="lastName" required />
+  </div>
+
+  <div class="form-group">
+    <label>No of Tickets:</label>
+    <input type="number" [(ngModel)]="customer.noOfTickets" name="noOfTickets" required />
+  </div>
+
+  <button type="submit" class="submit-button">Add Customer</button>
+</form>
+<h2>Customer List</h2>
+<ul>
+  <li *ngFor="let c of customers">
+    {{ c.firstName }} {{ c.lastName }} - Tickets: {{ c.noOfTickets }}
+  </li>
+</ul>

@@ -1,0 +1,6 @@
+{
+"Total Number of Tickets": 8,
+"Ticket Release Rate": 2,
+"Customer Retrieval Rate": 4,
+"Max Ticket Capacity": 7
+}

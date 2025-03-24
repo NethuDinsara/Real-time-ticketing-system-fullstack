@@ -1,0 +1,43 @@
+.control-panel {
+  margin: 20px;
+}
+
+.start-button, .stop-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #b2dfff;
+  text-decoration-color: #ddd;
+}
+
+.logs-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.logs-container h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+.logs-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.logs-container li {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #0d4e83;
+  border-bottom: 1px solid #ddd;
+  color: antiquewhite;
+}
+.logs-container li:hover{
+  background-color: #ddd;
+  color: #0d4e83;
+  
+}
